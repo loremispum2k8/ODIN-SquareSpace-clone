@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", serif;
+}
+body{
+    height: 15000px;
+}
+
+
+
+
+/* CLOSE */
+
+#close:checked ~ .black-friday-strip{
+    display: none;
+}
+.black-friday-strip{
+    top:0;
+    position: sticky;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0px 22px 0px 70px;
+    background-color: black;
+}
+#close{
+    display: none;
+}
+.black-friday-strip img{
+    width: 30px;
+    cursor: pointer;
+}
+.black-friday-strip p{
+    font-size: 16.5px;
+    font-weight: 600;
+    color: white;
+    flex: 1;
+    text-align: center;
+    padding-bottom: 6px;
+}
