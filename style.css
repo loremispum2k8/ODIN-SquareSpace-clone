@@ -70,7 +70,7 @@ a{
     color: white;
     position: relative;
 }
-.menu img{
+.menu-logo{
     -webkit-filter: invert(100%);
     width: 205px;
     cursor: pointer;
@@ -118,7 +118,6 @@ a{
 .products-two-sides{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     border-top: 1.6px solid rgb(82, 82, 82);
     height: 610px;
 }
@@ -178,12 +177,15 @@ a{
     color: black;
     padding: 10px 8px;
     background-color: rgb(212, 212, 212);
+    transition: background-color 0.3s;
 }
 .column-content div:hover .new-block{
     background-color: white;
 }
 
-
+.CONTAINER-ONE{
+    display: none;
+}
 .products:hover .CONTAINER-ONE{
     display: block;
 }
@@ -238,4 +240,50 @@ a{
 }
 .menu-buttons .button:hover{
     background-color: var(--hover-grey);
+}
+
+.products-right{
+    padding-top: 34px;
+    padding-left: 34px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.products-right-content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.products-right-group{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    cursor: pointer;
+}
+.products-right-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.products-right-titles{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+.image-cage{
+    width: 44px;
+    display: flex;
+    align-items: center;
+}
+.arrow{
+    display: none;
+    transform: rotate(180deg);
+}
+.title-arrow{
+    display: flex;
+    align-items: center;
+    height: 28px;
+}
+.products-right-group:hover .arrow{
+    display: inline-block;
 }
