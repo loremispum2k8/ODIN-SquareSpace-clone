@@ -114,17 +114,18 @@ a{
 }
 .products-two-sides{
     border-top: 1.6px solid rgb(82, 82, 82);
-    height: 610px;
+    height: 580px;
 }
 .resources-sides{
     border-top: 1.6px solid rgb(82, 82, 82);
-    height: 610px
+    height: 580px
 }
 .products-two-sides{
     display: flex;
     flex-direction: row;
 }
 .products-left{
+    overflow-y: scroll;
     padding-left: 125px;
     padding-right: 42px;
     padding-top: 34px;
@@ -132,6 +133,7 @@ a{
     flex-direction: row;
     border-right: 1px solid rgb(82, 82, 82);
     gap: 14px;
+    height: 544px;
 }
 .column{
     display: flex;
