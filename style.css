@@ -133,7 +133,7 @@ a{
     flex-direction: row;
     border-right: 1px solid rgb(82, 82, 82);
     gap: 14px;
-    height: 500px;
+    height: 510px;
 }
 .column{
     display: flex;
