@@ -753,3 +753,30 @@ a{
     padding-bottom: 0;
     margin-bottom: 0;
 }
+
+
+
+/* BUSINESS BIG */
+
+.grow-business-big-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 610px;
+    padding: 110px 40px;
+    background-color: rgb(46, 40, 39);
+    color: white;
+    gap: 120px;
+}
+.grow-business-big-section h1{
+    font-size: 158px;
+    font-weight: 500;
+    word-spacing: 0px;
+    letter-spacing: -8px;
+    line-height: 0.95;
+}
+.grow-business-big-section p{
+    font-size: 56px;
+    letter-spacing: -3px;
+    font-weight: 500;
+}
