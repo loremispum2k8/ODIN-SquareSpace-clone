@@ -471,7 +471,7 @@ a{
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    padding: 80px 40px;
+    padding: 80px 40px 90px;
     background-color: rgb(235, 235, 235);
 }
 .domain-title{
@@ -517,7 +517,7 @@ a{
     font-size: 13.5px;
     padding-right: 20px;
     padding-left: 50px;
-    width: 575px;
+    width: 565px;
 }
 .search-input:focus{
     outline: 2px solid rgb(50, 116, 202);
@@ -543,4 +543,81 @@ a{
 .search-button:hover{
     color: black;
     background-color: rgb(228, 228, 228);
+}
+
+
+
+/* WHAT YOU GET SECTION */
+
+.what-you-get-section{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    position: relative;
+    height: 850px;
+    justify-content: space-between;
+    padding: 125px 126px 0px 40px;
+}
+.what-you-get-section img{
+    width: 580px;
+    height: 600px;
+}
+.you-get-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.you-get-text-container div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.you-get-text-container div h1{
+    font-size: 21px;
+    font-weight: 600;
+}
+.you-get-text-container div p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.video-container{
+    position: relative;
+}
+.video-container i{
+    font-size: 14px;
+}
+
+.play-pause{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(161, 161, 161);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+    margin-left: 16px;
+}
+.play-pause .fa-play{
+    position: absolute;
+    display: none;
+    font-size: 11px;
+    
+}
+.play-pause label{
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#play:checked + label .fa-pause {
+    display: none;
+}
+
+#play:checked + label .fa-play {
+    display: block;
 }
