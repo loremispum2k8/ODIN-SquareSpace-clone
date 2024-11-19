@@ -72,7 +72,7 @@ a{
     position: relative;
 }
 .menu-logo{
-    --webkit-filter: invert(100%);
+    -webkit-filter: invert(100%);
     width: 205px;
     cursor: pointer;
 }
@@ -631,7 +631,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 140px 150px 140px 40px;
+    padding: 140px 150px 160px 40px;
 }
 .template-title{
     font-weight: 500;
@@ -671,4 +671,85 @@ a{
     background-color: black;
     color: white;
     border: 2px solid black;
+}
+
+
+/* SHOWOFF SECTION */
+
+.showoff-section{
+    width: 100%;
+    position: relative;
+    padding: 0px 40px;
+}
+.showoff-title-arrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    cursor: pointer;
+}
+.showoff-row:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: -2px;
+    margin-bottom: -2px;
+}
+.showoff-row:hover i{
+    display: inline;
+}
+.showoff-title-arrow i{
+    font-size: 30px;
+    display: none;
+}
+.showoff-row img{
+    width: 820px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 40px;
+    display: none;
+    margin-top: -35px;
+}
+.showoff-actual-title{
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    word-spacing: 3px;
+}
+.showoff-row{
+    padding-top: 16px;
+    width: fit-content;
+    cursor: pointer;
+}
+.showoff-row:hover img{
+    display: inline;
+}
+.ROW1{
+    margin-top: -465px;
+}
+.ROW2{
+    margin-top: -20pxpx;
+}
+
+.showoff-row.ROW1 img{
+    display: inline;
+}
+.showoff-row.ROW1 i{
+    display: inline;
+}
+.showoff-row.ROW1 {
+    border-bottom: 2px solid black;
+    padding-bottom: -2px;
+    margin-bottom: -2px;
+}
+.deactivate:hover ~ .showoff-row.ROW1 img{
+    display: none;
+}
+.deactivate:hover ~ .showoff-row.ROW1 i{
+    display: none;
+}
+.deactivate:hover ~ .showoff-row.ROW1{
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
