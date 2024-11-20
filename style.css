@@ -836,7 +836,7 @@ a{
     gap: 18px;
 }
 .tools-btn{
-    width: 260px;
+    width: 250px;
 }
 .bowl-btn p, .tools-btn p{
     font-weight: 600;
@@ -865,4 +865,75 @@ a{
     letter-spacing: -3px;
     line-height: 1.1;
     font-weight: 500;
+}
+
+
+/* GROUP */
+
+.text-and-image-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(46, 40, 39);
+    color: white;
+    padding: 120px 0px;
+    width: 100%;
+    gap: 120px;
+}
+.text-image-group{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 40px;
+    width: 100%;
+}
+.GROUP-ONE{
+    justify-content: space-between;
+}
+.text-image-group video{
+    width: 690px;
+}
+.group-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.group-description{
+    font-size: 15px;
+}
+.group-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid rgb(99, 99, 99);
+    display: flex;
+    cursor: pointer;
+    height: 64px;
+    gap: 18px;
+    margin-top: 16px;
+}
+.group-button-one{
+    width: 350px;
+}
+.group-button-two{
+    width: 235px;
+}
+.group-btn p{
+    font-weight: 600;
+    font-size: 13px;
+}
+.group-btn i{
+    font-size: 12px;
+}
+.group-btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+.group-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.GROUP-TWO .group-text-container{
+    margin-left: 40px;
 }
