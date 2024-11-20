@@ -787,7 +787,7 @@ a{
 
 /* BOWN */
 
-.round-bowl-section{
+.round-bowl-section, .under-tools-section{
     background-color: rgb(46, 40, 39);
     color: white;
     display: flex;
@@ -796,30 +796,33 @@ a{
     align-items: center;
     gap: 40px;
 }
-.round-bowl-section img{
+.round-bowl-section img, .under-tools-section img{
     width: 100%;
     padding: 0px 40px;
 }
-.bowl-text{
+.bowl-text, .tools-text{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
     padding: 0px 184px 0px 40px;
 }
-.bowl-title{
+.tools-text{
+    padding: 0px 158px 0px 40px;
+}
+.bowl-title, .tools-title{
     font-size: 20px;
     font-weight: 600;
 }
-.bowl-text-button{
+.bowl-text-button, .tools-text-button{
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
-.bowl-text-button p{
+.bowl-text-button p, .tools-text-button p{
     font-size: 15px;
 }
-.bowl-btn{
+.bowl-btn, .tools-btn{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -832,14 +835,17 @@ a{
     height: 68px;
     gap: 18px;
 }
-.bowl-btn p{
+.tools-btn{
+    width: 260px;
+}
+.bowl-btn p, .tools-btn p{
     font-weight: 600;
     font-size: 13px;
 }
-.bowl-btn i{
+.bowl-btn i, .tools-btn i{
     font-size: 12px;
 }
-.bowl-btn:hover{
+.bowl-btn:hover, .tools-btn:hover{
     background-color: white;
     color: black;
     border: 2px solid white;
