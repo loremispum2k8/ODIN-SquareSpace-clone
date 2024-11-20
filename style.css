@@ -598,6 +598,8 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.what-u-get-btn{
     margin-top: -50px;
     margin-left: 16px;
 }
@@ -778,5 +780,83 @@ a{
 .grow-business-big-section p{
     font-size: 56px;
     letter-spacing: -3px;
+    line-height: 1.1;
+    font-weight: 500;
+}
+
+
+/* BOWN */
+
+.round-bowl-section{
+    background-color: rgb(46, 40, 39);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 40px;
+}
+.round-bowl-section img{
+    width: 100%;
+    padding: 0px 40px;
+}
+.bowl-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 184px 0px 40px;
+}
+.bowl-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.bowl-text-button{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.bowl-text-button p{
+    font-size: 15px;
+}
+.bowl-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid rgb(99, 99, 99);
+    display: flex;
+    cursor: pointer;
+    width: 220px;
+    height: 68px;
+    gap: 18px;
+}
+.bowl-btn p{
+    font-weight: 600;
+    font-size: 13px;
+}
+.bowl-btn i{
+    font-size: 12px;
+}
+.bowl-btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+
+
+/* TOOLS */
+
+.tools-section{
+    width: 100%;
+    background-color: rgb(46, 40, 39);
+    color:white;
+    padding: 110px 40px;
+}
+.tools-section p{
+    font-size: 56px;
+    letter-spacing: -3px;
+    line-height: 1.1;
     font-weight: 500;
 }
