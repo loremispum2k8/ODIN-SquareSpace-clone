@@ -937,3 +937,75 @@ a{
 .GROUP-TWO .group-text-container{
     margin-left: 40px;
 }
+
+
+/* MARKET BIG */
+
+.marker-big-section{
+    display: flex;
+    width: 100%;
+    padding: 120px 40px;
+    background-color: rgb(208, 204, 224);
+}
+.marker-big-section p{
+    font-size: 152px;
+    font-weight: 500;
+    word-spacing: 0px;
+    letter-spacing: -10px;
+    line-height: 0.95;
+}
+
+.under-marker-section{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(208, 204, 224);
+    width: 100%;
+    position: relative;
+    height: 850px;
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+}
+.under-marker-section img{
+    width: 690px;
+    height: 700px;
+}
+.marker-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.marker-text-container div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.marker-text-container div h1{
+    font-size: 21px;
+    font-weight: 600;
+}
+.marker-text-container div p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.marker-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid rgb(155, 155, 155);
+    display: flex;
+    cursor: pointer;
+    width: 260px;
+    height: 64px;
+    gap: 18px;
+}
+.marker-btn .marker-btn-text{
+    font-weight: 600;
+    font-size: 13px;
+}
+.marker-btn:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
