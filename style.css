@@ -7,6 +7,7 @@
 }
 body{
     height: 15000px;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -961,7 +962,7 @@ a{
     background-color: rgb(208, 204, 224);
     width: 100%;
     position: relative;
-    height: 850px;
+    height: 820px;
     justify-content: space-between;
     padding: 0px 40px 0px 40px;
 }
@@ -1008,4 +1009,87 @@ a{
     background-color: black;
     color: white;
     border: 2px solid black;
+}
+
+
+/* SOLUTIONS SECTION */
+
+.solutions-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 120px 60px 100px 40px;
+    background-color: rgb(235, 235, 235);
+    gap: 150px;
+}
+.solutions-title{
+    font-size: 152px;
+    font-weight: 500;
+    word-spacing: 0px;
+    letter-spacing: -10px;
+    line-height: 0.95;
+}
+.solutions-arrows{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.solutions-arrows p{
+    font-size: 34px;
+    font-weight: 500;
+}
+.left-right-arrow{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-self: flex-end;
+}
+.left-right-arrow i{
+    font-size: 18px;
+    cursor: pointer;
+}
+.left-right-arrow .fa-arrow-left{
+    color: grey;
+}
+
+
+/* SCROLLER */
+
+.scroller{
+    display: flex;
+    margin-left: 40px;
+    width: 100%;
+    height: 520px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.scroll-group{
+    flex-grow: 0;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    height: 520px;
+    width: 700px;
+    
+}
+.scroll-group img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+.scroll-group:hover img{
+    transform: scale(1.05);
+}
+.scroll-name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    color: white;
 }
