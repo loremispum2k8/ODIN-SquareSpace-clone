@@ -1093,3 +1093,95 @@ a{
     margin-left: 30px;
     color: white;
 }
+
+
+/* GETTING STARTED */
+
+.getting-started{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 150px 40px 120px 40px;
+}
+.getting-started-title{
+    font-size: 34px;
+    font-weight: 500;
+}
+.getting-started-questions-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.gs-group{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(146, 146, 146);
+}
+.gs-group input{
+    display: none;
+}
+.gs-group input:checked ~ .hidden-answear{
+    display: inline;
+}
+.gs-group input:checked ~ label .plus-minus .fa-plus{
+    display: none
+}
+.gs-group input:checked ~ .hidden-answear{
+    display: inline;
+}
+.second-group input:checked ~ label .plus-minus .fa-plus{
+    display: none
+}
+.third-group input:checked ~ .hidden-answear{
+    display: inline;
+}
+.third-group input:checked ~ label .plus-minus .fa-plus{
+    display: none
+}
+.gs-plus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 30px 0px 40px 0px;
+}
+.gs-plus p{
+    font-size: 20px;
+    font-weight: 600;
+    width: 680px;
+}
+.hidden-answear{
+    display: flex;
+    flex-direction: column;
+    display: none;
+    margin-bottom: 40px;
+}
+.number-text{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 30px;
+}
+.enumerated-text span{
+    text-decoration: underline 1px solid black;
+    text-underline-offset: 3px;
+}
+.plus-minus{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.plus-minus .fa-minus{
+    position: absolute;
+}
+.margin-top{
+    margin-top: 3px;
+}
