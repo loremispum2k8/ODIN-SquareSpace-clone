@@ -6,7 +6,6 @@
     --hover-grey: rgba(255, 255, 255, 0.8);
 }
 body{
-    height: 15000px;
     overflow-x: hidden;
 }
 a{
@@ -1459,7 +1458,7 @@ a{
     flex-direction: column;
     color: white;
     background-color: black;
-    padding: 0px 40px 220px 40px;
+    padding: 0px 40px 235px 40px;
     gap: 40px;
 }
 .free-trial-section h1{
@@ -1497,4 +1496,66 @@ a{
 }
 .trial-text{
     font-size: 15px;
+}
+
+
+/* LAST */
+
+.last-section{
+    width: 100%;
+    padding: 0px 0px 120px 40px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color:white;
+    gap: 180px;
+}
+.left-last{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+.ss-logo{
+    width: 38px;
+    cursor: pointer;
+}
+.last-button{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #181818;
+    height: 46px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 14px;
+    cursor: pointer;
+}
+.last-button i{
+    font-size: 12px;
+}
+.right-last{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.last-column{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.last-column-title, .last-column-text{
+    font-size: 13px;
+    font-weight: 600;
+}
+.last-column-title{
+    margin-bottom: 16px;
+}
+.last-column-text{
+    color: rgb(158, 158, 158);
+    cursor: pointer;
+}
+.last-column-text:hover{
+    color: white;
 }
