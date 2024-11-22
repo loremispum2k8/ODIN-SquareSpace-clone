@@ -1256,3 +1256,129 @@ a{
     flex-direction: column;
     gap: 30px;
 }
+
+
+
+/* FREQUENT QUESTIONS */
+
+
+.frequent-question{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 150px 40px 120px 40px;
+}
+.frequent-question-title{
+    font-size: 34px;
+    font-weight: 500;
+}
+.frequent-question-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fq-group{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(146, 146, 146);
+}
+.fq-group input{
+    display: none;
+}
+.fq-group input:checked ~ .fq-hidden-answear{
+    display: inline;
+}
+.fq-group input:checked ~ label .fq-plus-minus .fq-plus{
+    display: none
+}
+.fq-group input:checked ~ .fq-hidden-answear{
+    display: inline;
+}
+.fq-second-group input:checked ~ label .fq-plus-minus .fq-plus{
+    display: none
+}
+.fq-third-group input:checked ~ .fq-hidden-answear{
+    display: inline;
+}
+.fq-third-group input:checked ~ label .fq-plus-minus .fq-plus{
+    display: none
+}
+.forth-group input:checked ~ .fq-hidden-answear{
+    display: inline;
+}
+.forth-group input:checked ~ label .fq-plus-minus .fq-plus{
+    display: none
+}
+.fifth-group input:checked ~ .fq-hidden-answear{
+    display: inline;
+}
+.fifth-group input:checked ~ label .fq-plus-minus .fq-plus{
+    display: none
+}
+.sixth-group input:checked ~ .fq-hidden-answear{
+    display: inline;
+}
+.sixth-group input:checked ~ label .fq-plus-minus .fq-plus{
+    display: none
+}
+.seventh-group input:checked ~ .fq-hidden-answear{
+    display: inline;
+}
+.seventh-group input:checked ~ label .fq-plus-minus .fq-plus{
+    display: none
+}
+.eigth-group input:checked ~ .fq-hidden-answear{
+    display: inline;
+}
+.eigth-group input:checked ~ label .fq-plus-minus .fq-plus{
+    display: none
+}
+.fq-plus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 30px 0px 40px 0px;
+}
+.fq-plus p{
+    font-size: 20px;
+    font-weight: 600;
+    width: 680px;
+}
+.fq-hidden-answear{
+    display: flex;
+    flex-direction: column;
+    display: none;
+    margin-bottom: 40px;
+}
+.fq-number-text{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 30px;
+}
+.fq-enumerated-text span{
+    text-decoration: underline 1px solid white;
+    text-underline-offset: 3px;
+    cursor: pointer;
+}
+.fq-plus-minus{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.fq-plus-minus .fa-minus{
+    position: absolute;
+}
+.margin-top{
+    margin-top: 3px;
+}
