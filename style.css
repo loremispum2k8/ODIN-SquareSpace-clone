@@ -1293,50 +1293,50 @@ a{
 .fq-group input:checked ~ .fq-hidden-answear{
     display: inline;
 }
-.fq-group input:checked ~ label .fq-plus-minus .fq-plus{
+.fq-group input:checked ~ label .fq-plus-minus .fa-plus{
     display: none
 }
 .fq-group input:checked ~ .fq-hidden-answear{
     display: inline;
 }
-.fq-second-group input:checked ~ label .fq-plus-minus .fq-plus{
+.fq-second-group input:checked ~ label .fq-plus-minus .fa-plus{
     display: none
 }
 .fq-third-group input:checked ~ .fq-hidden-answear{
     display: inline;
 }
-.fq-third-group input:checked ~ label .fq-plus-minus .fq-plus{
-    display: none
+.fq-third-group input:checked ~ label .fq-plus-minus .fa-plus{
+    display: none;
 }
 .forth-group input:checked ~ .fq-hidden-answear{
     display: inline;
 }
-.forth-group input:checked ~ label .fq-plus-minus .fq-plus{
-    display: none
+.forth-group input:checked ~ label .fq-plus-minus .fa-plus{
+    display: none;
 }
 .fifth-group input:checked ~ .fq-hidden-answear{
     display: inline;
 }
-.fifth-group input:checked ~ label .fq-plus-minus .fq-plus{
-    display: none
+.fifth-group input:checked ~ label .fq-plus-minus .fa-plus{
+    display: none;
 }
 .sixth-group input:checked ~ .fq-hidden-answear{
     display: inline;
 }
-.sixth-group input:checked ~ label .fq-plus-minus .fq-plus{
-    display: none
+.sixth-group input:checked ~ label .fq-plus-minus .fa-plus{
+    display: none;
 }
 .seventh-group input:checked ~ .fq-hidden-answear{
     display: inline;
 }
 .seventh-group input:checked ~ label .fq-plus-minus .fq-plus{
-    display: none
+    display: none;
 }
 .eigth-group input:checked ~ .fq-hidden-answear{
     display: inline;
 }
-.eigth-group input:checked ~ label .fq-plus-minus .fq-plus{
-    display: none
+.eigth-group input:checked ~ label .fq-plus-minus .fa-plus{
+    display: none;
 }
 .fq-plus{
     display: flex;
