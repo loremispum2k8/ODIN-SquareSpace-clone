@@ -1057,6 +1057,7 @@ a{
 /* SCROLLER */
 
 .scroller{
+    background-color:  rgb(235, 235, 235);
     display: flex;
     margin-left: 40px;
     width: 100%;
