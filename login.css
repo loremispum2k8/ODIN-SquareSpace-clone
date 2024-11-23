@@ -46,7 +46,7 @@ a{
 .go-back  .fa-angle-left{
     font-size: 20px;
 }
-.go-back p{
+.go-back a{
     font-size: 12px;
     align-self: flex-start;
     font-weight: 600;
